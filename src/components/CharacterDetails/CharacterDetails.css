@@ -1,0 +1,35 @@
+.character_guess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.character_guess img {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.character_guess h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.character_guess ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.character_guess li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: black;
+}
+
+.character_guess li:hover {
+  color: var(--rtc-color-4);
+}

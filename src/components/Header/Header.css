@@ -1,6 +1,6 @@
 header {
   height: 10svh;
-  border: 1px solid black;
+  border: 3px solid var(--rtc-color-3);
   border-radius: 20px;
 }
 
@@ -17,10 +17,21 @@ header ul {
 
 header a {
   color: black;
-  font-size: 20px;
+  font-size: 2.5rem;
   padding-bottom: 5px;
 }
 
 header a.active {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid var(--rtc-color-3);
+}
+
+@media (max-width: 600px) {
+  header a.active {
+    border-bottom: none;
+  }
+  header a {
+    color: black;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+  }
 }

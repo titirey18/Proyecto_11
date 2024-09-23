@@ -9,10 +9,7 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to='/'>Adivina el club</NavLink>
-          </li>
-          <li>
-            <NavLink to='/guessplayer'>Adivina el jugador</NavLink>
+            <NavLink to='/'>Personajes de los simpson</NavLink>
           </li>
         </ul>
       </nav>

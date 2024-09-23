@@ -6,6 +6,14 @@
   text-decoration: none;
 }
 
+:root {
+  --rtc-color-1: #98d38d;
+  --rtc-color-2: #ffef94;
+  --rtc-color-3: #ffcb5c;
+  --rtc-color-4: #ff6e61;
+  --rtc-color-5: #000000;
+}
+
 body {
-  background-color: cornflowerblue;
+  background-color: var(--rtc-color-1);
 }
